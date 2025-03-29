@@ -65,19 +65,21 @@ fun NavGraphBuilder.unauthorizedGraph(navController: NavController) {
         composable(route = NavItem.Login.route) {
             val viewmodel = hiltViewModel<LoginScreenViewModel>()
 
-            LoginScreen(
-                state = viewmodel.state.collectAsStateWithLifecycle().value,
-                uiEvent = viewmodel::uiEvent,
-                navigateToRegistrationScreen = {
-                    navController.navigate(NavItem.Registration.route)
-                },
-                navigateToDashboard = {
-                    navController.navigate(NavItem.Dashboard.route) {
-                        popUpTo(0) { inclusive = true }
-                        launchSingleTop = true
+            RootView(useLightStatusBarColors = true) {
+                LoginScreen(
+                    state = viewmodel.state.collectAsStateWithLifecycle().value,
+                    uiEvent = viewmodel::uiEvent,
+                    navigateToRegistrationScreen = {
+                        navController.navigate(NavItem.Registration.route)
+                    },
+                    navigateToDashboard = {
+                        navController.navigate(NavItem.Dashboard.route) {
+                            popUpTo(0) { inclusive = true }
+                            launchSingleTop = true
+                        }
                     }
-                }
-            )
+                )
+            }
         }
 
         composable(route = NavItem.Registration.route) {
