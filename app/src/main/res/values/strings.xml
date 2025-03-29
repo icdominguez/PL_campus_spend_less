@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">Spendless</string>
+
+    <!-- region Authentication -->
+    <string name="hello_user">Hello, %s!</string>
+    <string name="enter_your_pin">Enter you PIN</string>
+    <string name="try_your_pin_again">Try your PIN again in %s</string>
+    <!-- end region -->
+
+
+    <!-- region Login -->
+    <!-- region Registration -->
+    <!-- region Create pin -->
+    <!-- region Repeat pin -->
+    <string name="repeat_pin">Repeat Your PIN</string>
+    <string name="enter_pin_again">Enter your PIN again</string>
+    <!-- region Preferences -->
+    <!-- region Settings -->
+
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="new_to_spendless">New to Spendless?</string>
+    <string name="username">Username</string>
+    <string name="next">Next</string>
+    <string name="create_unique_username">Create unique username</string>
+    <string name="welcome">Welcome to Spendless!How can we adress you?</string>
+    <string name="set_spendless_to_preferences">Set Spendless\nto your preferences</string>
+    <string name="how_to_change_preferences">You can change it at any time in Settings</string>
+    <string name="start_tracking">Start tracking!</string>
+    <string name="spend_this_month">spend this month</string>
+    <string name="expenses_format">Expenses format</string>
+    <string name="currency">Currency</string>
+
+    <string name="login">Log in</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="enter_your_credentials">Enter your login details</string>
+    <string name="create_pin">Create PIN</string>
+    <string name="use_pin_to_log_in">Use PIN to login to your account</string>
+
+    <string name="category_home">Home</string>ç
+    <string name="category_food_and_groceries">Food &amp; Groceries</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_clothing_and_accessories">Clothing &amp; accessories</string>
+    <string name="category_health_and_wellness">Health &amp; Wellness</string>
+    <string name="category_personal_care">Personal Care</string>
+    <string name="category_transportation">Transportation</string>
+    <string name="category_education">Education</string>
+    <string name="category_saving_and_investments">Saving &amp; investments</string>
+    <string name="category_others">Other</string>
+
+    <string name="expense">Expense</string>
+    <string name="income">Income</string>
+
+    <string name="settings_screen">Settings</string>
+    <string name="settings_screen_preferences">Preferences</string>
+    <string name="settings_screen_security">Security</string>
+    <string name="settings_screen_log_out">Log out</string>
+
+    <string name="session_expiry_expiration">Session expiry expiration</string>
+    <string name="locked_out_duration">Locked out duration</string>
+
+    <string name="save">Save</string>
+
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <string name="create_transaction">Create transaction</string>
+
+    <string name="create">Create</string>
+
+    <string name="receiver">Receiver</string>
+    <string name="sender">Sender</string>
+
+    <string name="add_note">+ Add Note</string>
+
+    <string name="view_all">Show all</string>
+    <string name="latest_transaction">Latest transactions</string>
+    <string name="no_transactions">No transactions to show</string>
+    <string name="previous_week">Previous week</string>
+    <string name="largest_transaction">Your largest transaction will appear here</string>
+    <string name="account_balance">Account Balance</string>
+
+    <string name="security">Security</string>
+
+    <string name="loading">Loading data … please wait</string>
+
+    <string name="all_transactions">All Transactions</string>
+
+    <string name="most_popular_category">Most popular category</string>
+
+    <string name="too_many_failed_attempts">Too many failed attempts</string>
+
+    <string name="transceiver">Transceiver</string>
+    <string name="category">Category</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+
+    <string name="transactions">Transactions</string>
+    
+    <!-- region Export -->
+    <string name="export">Export</string>
+    <string name="export_to_csv">Export transactions to CSV format</string>
+    <string name="export_range">Export range</string>
+    <string name="export_last_three_months">Last three months</string>
+    <string name="export_last_month">Last month</string>
+    <string name="export_current_month">Current month</string>
+    <string name="export_specific_month">Specific month</string>
+    <string name="export_all_data">All data</string>
+    <!-- endregion -->
+
+    <!-- region Recurring frequency -->
+    <string name="recurring_frequency">Recurring frequency</string>
+    <string name="recurring_frequency_next_recurring_date">Next recurring date</string>
+    <string name="recurring_frequency_does_not_repeat">Does not repeat</string>
+    <string name="recurring_frequency_daily">Daily</string>
+    <string name="recurring_frequency_weekly">Weekly on</string>
+    <string name="recurring_frequency_monthly">Monthly on the</string>
+    <string name="recurring_frequency_yearly">Yearly on</string>
+    <!-- endregion -->
+</resources>

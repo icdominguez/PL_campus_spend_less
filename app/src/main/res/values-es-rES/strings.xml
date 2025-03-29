@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spendless</string>
+
+    <!-- region Authentication -->
+    <string name="hello_user">¡Hola, %s!</string>
+    <string name="enter_your_pin">Introduce tu PIN</string>
+    <string name="try_your_pin_again">Introduzca su PIN de nuevo en %s</string>
+    <string name="too_many_failed_attempts">Demasiados intentos fallidos</string>
+    <!-- end region -->
+
+    <!-- region Repeat pin -->
+    <string name="repeat_pin">Repite tu PIN</string>
+    <string name="enter_pin_again">Escribe tu PIN otra vez</string>
+    <!-- endregion -->
+
+    <string name="already_have_an_account">¿Ya tienes una cuenta?</string>
+    <string name="new_to_spendless">¿Eres nuevo en Spendless?</string>
+    <string name="username">Nombre de usuario</string>
+    <string name="next">Siguiente</string>
+    <string name="create_unique_username">Crear un usuario único</string>
+    <string name="welcome">¡Bienvenid@ a Spendless! ¿Como nos podemos dirigir a ti?</string>
+    <string name="set_spendless_to_preferences">Ajusta Spendless\nsegún tus preferencias</string>
+    <string name="how_to_change_preferences">Puedes cambiarlas cuando quieras en los ajustes</string>
+    <string name="start_tracking">Empezar seguimiento!</string>
+    <string name="spend_this_month">Gastados este mes</string>
+    <string name="expenses_format">Formato de gastos</string>
+    <string name="currency">Moneda</string>
+
+    <string name="login">Acceder</string>
+    <string name="welcome_back">Bienvenid@ de nuevo</string>
+    <string name="enter_your_credentials">Introduce tus credenciales</string>
+    <string name="create_pin">Crear PIN</string>
+    <string name="use_pin_to_log_in">Usa tu PIN para entrar en tu cuenta</string>
+
+    <string name="category_home">Hogar</string>
+    <string name="category_food_and_groceries">Alimentación</string>
+    <string name="category_entertainment">Ocio</string>
+    <string name="category_clothing_and_accessories">Ropa y accesorios</string>
+    <string name="category_health_and_wellness">Salud y bienestar</string>
+    <string name="category_personal_care">Cuidado personal</string>
+    <string name="category_transportation">Transporte</string>
+    <string name="category_education">Educación</string>
+    <string name="category_saving_and_investments">Ahorro e inversiones</string>
+    <string name="category_others">Otros</string>
+
+    <string name="expense">Gasto</string>
+    <string name="income">Ingreso</string>
+
+    <string name="settings_screen">Ajustes</string>
+    <string name="settings_screen_preferences">Preferencias</string>
+    <string name="settings_screen_security">Seguridad</string>
+    <string name="settings_screen_log_out">Cerrar sesión</string>
+
+    <string name="session_expiry_expiration">Duración de la sesión</string>
+    <string name="locked_out_duration">Duración del bloqueo de usuario</string>
+
+    <string name="save">Guardar</string>
+
+    <string name="today">Hoy</string>
+    <string name="yesterday">Ayer</string>
+
+    <string name="create_transaction">Crear transacción</string>
+
+    <string name="create">Crear</string>
+
+    <string name="receiver">Receptor</string>
+    <string name="sender">Emisor</string>
+
+    <string name="add_note">+ Añadir Nota</string>
+
+    <string name="view_all">Ver todo</string>
+    <string name="latest_transaction">Últimas transacciones</string>
+    <string name="no_transactions">No hay transacciones que mostrar</string>
+    <string name="previous_week">Semana pasada</string>
+    <string name="largest_transaction">Tu transacción mas larga aparecerá aquí</string>
+    <string name="account_balance">Saldo de la cuenta</string>
+
+    <string name="security">Segurity</string>
+
+    <string name="loading">Cargando información … por favor, espere</string>
+
+    <string name="all_transactions">Todas las transacciones</string>
+
+    <string name="most_popular_category">Categoría mas popular</string>
+
+    <string name="transceiver">Transmisor</string>
+    <string name="category">Categoría</string>
+    <string name="amount">Cantidad</string>
+    <string name="description">Descripción</string>
+    <string name="date">Fecha</string>
+
+    <string name="transactions">Transacciones</string>
+
+    <!-- region Export -->
+    <string name="export">Exportar</string>
+    <string name="export_to_csv">Exportar transacciones en formato CSV</string>
+    <string name="export_range">Rango para exportar</string>
+    <string name="export_last_three_months">Últimos tres meses</string>
+    <string name="export_last_month">Último mes</string>
+    <string name="export_current_month">Mes actual</string>
+    <string name="export_specific_month">Mes específico</string>
+    <string name="export_all_data">Todas las transacciones</string>
+    <!-- endregion -->
+
+    <!-- region Recurring frequency -->
+    <string name="recurring_frequency">Frecuecia de repeticion</string>
+    <string name="recurring_frequency_next_recurring_date">Siguiente día de repeticion</string>
+    <string name="recurring_frequency_does_not_repeat">Does not repeat</string>
+    <string name="recurring_frequency_daily">Diariamente</string>
+    <string name="recurring_frequency_weekly">Semanalmente el </string>
+    <string name="recurring_frequency_monthly">Mensualmente el </string>
+    <string name="recurring_frequency_yearly">Anualmente el </string>
+    <!-- endregion -->
+</resources>
